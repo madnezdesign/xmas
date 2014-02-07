@@ -1,0 +1,64 @@
+body
+{
+  background-color: #000000;
+  font: 1em Verdana, Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  margin:8px auto;
+  padding:1em;
+  width:970px;
+  background-color:#fff;
+  border:1px solid #00FF00;
+  border-radius: 10px;
+}
+
+#footer {
+  margin:8px auto;
+  padding:1em;
+  width:970px;
+  background-color:#fff;
+  border:1px solid #00FF00;
+  border-radius: 10px;
+    font-size:0.9em;
+
+}
+
+#footer,
+#footer a {color:#666;}
+#footer a:hover {color:#333; text-decoration:none;}
+
+#main
+{
+min-height:20em;
+  overflow-x: scroll;
+}
+
+#header {
+background:url(../../../img/logo.png) left no-repeat;
+height:190px;
+margin:8px auto;
+  width:970px;
+  background-color:#fff;
+  text-align:center;
+}
+
+a {
+color:#000000;
+text-decoration:none;
+}
+
+a:hover {
+color:#0099FF;
+text-decoration:underline;
+}
+
+h1 {
+font-size: 1.8em;
+font-family:"Californian FB";
+}
+
+h2{
+font-size:1.2em;
+  border-bottom:1px solid #dddddd;
+} 

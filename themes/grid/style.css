@@ -1,0 +1,312 @@
+body {
+  width:100%;
+  *zoom:1;
+}
+
+body:before, body:after {
+  content:"";
+  display:table;
+}
+
+body:after { clear:both; }
+
+h1 {
+  padding-bottom:4px;
+}
+
+h2 {
+  padding-bottom:4px;
+}
+
+#primary {
+  display:inline;
+  width:960px;
+  padding:0.5em;
+}
+
+#sidebar {
+  display:inline;
+  float:right;
+  width:300px;
+  margin:0 10px; 
+  text-align:justify;
+  padding:0.3em;
+  margin-top:2em;
+}
+
+input, textarea { font:inherit; }
+input[readonly] { color:#666666; }
+label { font-size:smaller; }
+.validation-failed { border:2px solid red; }
+.validation-message {
+  color:red;
+  font-size:smaller;
+}
+.form-action-link { font-size:smaller; }
+.content-edit input[type=text] { width:30em; }
+.content-edit textarea {
+  width:40em;
+  height:15em;
+}
+html { background-color:#ffffff; }
+body {
+  margin:0;
+  padding:0;
+  color:#333333;
+  background:url(bg.jpg) repeat fixed;
+  font:0.8 Arial;
+}
+
+body:hover { background:url(bg.jpg) repeat fixed; }
+
+#outer-wrap-header {
+  height:88px;
+  margin-top:11px;
+  margin-bottom:11px;
+}
+#inner-wrap-header {
+  width:960px;
+  margin:0 auto;
+  *zoom:1;
+}
+#inner-wrap-header:before, #inner-wrap-header:after {
+  content:"";
+  display:table;
+}
+#inner-wrap-header:after { clear:both; }
+#header {
+  display:inline;
+  float:left;
+  width:940px;
+  margin:0 10px;
+}
+#login-menu {
+  float:right;
+  font-size:smaller;
+}
+#login-menu img.gravatar { vertical-align:middle; }
+#login-menu a { text-decoration:none; color: #006699;}
+#login-menu a:hover { text-decoration:underline; color:#990000; }
+#banner {
+  display:table;
+  margin-bottom:11px;
+}
+#banner #site-logo {
+  display:table-cell;
+  vertical-align:middle;
+}
+#banner #site-title {
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+  font-size:7em;
+  font-weight:bold;
+  padding-left:0.5em;
+  text-shadow: #999999 2px 2px 2px;
+  font-family: "Bauhaus 93";
+}
+#banner #site-title a { text-decoration:none; }
+#banner #site-slogan {
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+  font-size:1.3em;
+  padding-top:5.5em;
+  color: #990000;
+}
+#inner-wrap-flash {
+  width:960px;
+  margin:0 auto;
+  *zoom:1;
+  height:66px;
+  margin-bottom:22px;
+}
+#inner-wrap-flash:before, #inner-wrap-flash:after {
+  content:"";
+  display:table;
+}
+#inner-wrap-flash:after { clear:both; }
+#flash {
+  display:inline;
+  float:left;
+  width:940px;
+  margin:0 10px;
+  background-color:rgba(230,230,230,0.5);
+  height:100%;
+}
+#inner-wrap-featured {
+  width:960px;
+  margin:0 auto;
+  *zoom:1;
+  height:110px;
+  margin-bottom:22px;
+}
+#inner-wrap-featured:before, #inner-wrap-featured:after {
+  content:"";
+  display:table;
+}
+#inner-wrap-featured:after { clear:both; }
+#featured-first, #featured-middle, #featured-last {
+  display:inline;
+  float:left;
+  width:300px;
+  margin:0 10px;
+  background-color:rgba(230,230,230,0.5);
+  height:100%;
+}
+#inner-wrap-main {
+  width:960px;
+  margin:0 auto;
+  *zoom:1;
+  margin-bottom:22px;
+}
+#inner-wrap-main:before, #inner-wrap-main:after {
+  content:"";
+  display:table;
+}
+#inner-wrap-main:after { clear:both; }
+
+
+#inner-wrap-triptych {
+  width:960px;
+  margin:0 auto;
+  *zoom:1;
+  height:110px;
+  margin-bottom:22px;
+}
+#inner-wrap-triptych:before, #inner-wrap-triptych:after {
+  content:"";
+  display:table;
+}
+#inner-wrap-triptych:after { clear:both; }
+#triptych { height:inherit; }
+#triptych-first, #triptych-middle, #triptych-last {
+  display:inline;
+  float:left;
+  width:300px;
+  margin:0 10px;
+  background-color:rgba(230,230,230,0.5);
+  height:100%;
+}
+#outer-wrap-footer-column {
+  background-color:rgba(230,230,230,0.5);
+  border-top:1px solid #bbbbbb;
+}
+#inner-wrap-footer-column {
+  width:960px;
+  margin:0 auto;
+  *zoom:1;
+  height:110px;
+  padding-bottom:22px;
+}
+#inner-wrap-footer-column:before, #inner-wrap-footer-column:after {
+  content:"";
+  display:table;
+}
+#inner-wrap-footer-column:after { clear:both; }
+#footer { height:inherit; }
+#footer-column-one, #footer-column-two, #footer-column-three, #footer-column-four {
+  display:inline;
+  float:left;
+  width:220px;
+  margin:0 10px;
+  font-size:0.9em;
+  margin-top:1em;
+  height:100%;
+  background-color:rgba(255,255,255,0.5);
+}
+#outer-wrap-footer { background: #FFFFFF; border-top:#990000 groove thin; height:auto; padding-top:1em;}
+#inner-wrap-footer {
+  width:960px;
+  margin:0 auto;
+  *zoom:1;
+}
+#inner-wrap-footer:before, #inner-wrap-footer:after {
+  content:"";
+  display:table;
+}
+#inner-wrap-footer:after { clear:both; }
+#footer {
+  display:inline;
+  float:left;
+  width:940px;
+  margin:0 10px;
+  font-size:0.80em;
+  color:#666666;
+  padding-bottom:22px;
+}
+a { color:inherit; }
+a:link {
+  text-decoration:none;
+  font-weight:100;
+  color: #006699;
+}
+a:visited { color:#006600;}
+a:hover {
+  text-decoration:none;
+  color:#990000;
+}
+a:focus {
+  text-decoration:none;
+  color:#5c0a0a;
+}
+a:active { color:#ffc21d; }
+.error, .alert, .warning, .notice, .success, .info {
+  padding:0.8em;
+  margin-bottom:1em;
+  border:2px solid #dddddd;
+}
+.error, .alert {
+  background:#fbe3e4;
+  color:#8a1f11;
+  border-color:#fbc2c4;
+}
+.notice, .warning {
+  background:#fff6bf;
+  color:#514721;
+  border-color:#ffd324;
+}
+.success {
+  background:#e6efc2;
+  color:#264409;
+  border-color:#c6d880;
+}
+.info {
+  background:#d5edf8;
+  color:#205791;
+  border-color:#92cae4;
+}
+.error a, .alert a { color:#8a1f11; }
+.notice a, .warning a { color:#514721; }
+.success a { color:#264409; }
+.info a { color:#205791; }
+.smaller-text { font-size:smaller; }
+.silent { color:#999999; }
+
+#site-menu ul ul {
+  float:left;
+  padding-right:4em;
+}
+#site-menu ul ul li {
+  font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
+  color:color-site-title;
+  letter-spacing:0.1em;
+}
+#site-menu ul ul li:hover { list-style-type:square; }
+#site-menu ul ul li:hover > a {
+  text-decoration:underline;
+  color:#111111;
+}
+#site-menu ul ul li:focus > a {
+  text-decoration:underline;
+  color:#111111;
+}
+#site-menu ul ul li.selected {
+  list-style-type:square;
+  color:#000000;
+  background:#CCC;
+}
+#site-menu ul ul li a {
+  text-decoration:none;
+  color:inherit;
+} 

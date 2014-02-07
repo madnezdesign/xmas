@@ -1,0 +1,40 @@
+/**
+* Description: Sample theme for site which extends the Lydia grid-theme.
+*/
+@import url(../../../themes/grid/style.css);
+
+#navbar ul.menu li a.selected{background-color:#FFCE80; color: #000; border-bottom:none;}
+
+#navbar ul.menu {
+  list-style-type:none;
+  padding:6px 8px;
+  margin:0;
+}
+#navbar ul.menu li {
+  padding:0;
+  margin:0;
+  display:inline;
+}
+#navbar ul.menu li a {
+  padding:6px 8px;
+  text-decoration:none;
+  border:1px solid transparent;
+}
+#navbar ul.menu li a:hover {
+  background:#BCCCB3;
+  border:1px solid #222222;
+}
+#navbar ul.menu li a.selected {
+  background: #BCCCB3;
+  border:1px solid #222222;
+}
+
+#navbar {
+width:970px;
+background: #D6DFE4;
+border:thin dashed #990000;
+}
+
+table#min {
+width:600px;
+}
