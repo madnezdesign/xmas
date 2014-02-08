@@ -31,7 +31,6 @@ Användning
 
     Efter installationen av ramverket kan du logga in via webbläsaren antingen som:
     Användarnamn: root Lösenord: root eller Användarnamn: doe Lösenord: doe
-    Med inloggningen root som har administratör behörighet har du tillgång till alla grupper, användare och innehåll.
      
      Du kan lägga till, uppdatera och ta bort dessa och välja vem som kan se ett visst innehåll. 
      Du har också tillgång till modulerna som finns i högerspalten. Dessa moduler innehåller information 
